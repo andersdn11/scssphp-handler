@@ -9,13 +9,13 @@ is in same directory as /scss_handler.php
 Add this in the head:
 <code>
 ```<?php
-```require_once "./scss_handler.php";
+require_once "./scss_handler.php";```
 
 ```$scss_path = '/styles/';    
-```$css_path = '/styles/';  
+$css_path = '/styles/';  ```
 
 ```run_compiler($scss_path, $css_path);
-```?>
+?>```
 </code>
 
 ### WHAT IT DOES
