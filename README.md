@@ -16,7 +16,7 @@ $css_path = '/styles/';
 
 run_compiler($scss_path, $css_path);
 ?>
-```</code>
+</code>
 
 ### WHAT IT DOES
 
