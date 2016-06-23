@@ -28,5 +28,4 @@ Oh and..
 - it automatically checks if changes have been made to any .scss files and only compiles if true.
 - It outputs errors for you.
 
-
->100 lines of code.
+Less than 100 lines of code.
