@@ -1,13 +1,14 @@
 # scssphp-handler
 Make scssphp crazy easy to use. 
 
-GETTING STARTED
+### GETTING STARTED
 
 make sure /scss_php-master/ 
 is in same directory as /scss_handler.php
 
 Add this in <head>:
 <code>
+```
 <?
 require_once "./scss_handler.php";
 
@@ -16,9 +17,10 @@ $css_path = '/styles/';
 
 run_compiler($scss_path, $css_path);
 ?>
+```
 </code>
 
-WHAT IT DOES
+### WHAT IT DOES
 
 It finds all .scss files that are NOT partials (e.g _part.scss)
 And compiles into .css files. 
